@@ -21,3 +21,10 @@ Then His average is 6
 Then He has 2 marks
 And The student has no misktake
 
+Scenario: The average must be 8
+
+Given The student has a mark 7
+When He has a mark 8
+Then His average is 6
+Then He has 2 marks
+And The student has no misktake
